@@ -1,0 +1,5 @@
+Make sure you have sidequest installed with developer mode turned on.
+Connect your headset to your PC/Sidequest
+Go to ABD commands {which looks like a wrench near the top right of your screen}
+Now type in this command
+Adb shell setprop debug.oculus.phaseSync 1 && adb shell setprop debug.oculus.PhaseSyncAdditionalPadding 1 && adb shell setprop debug.oculus.PhaseSyncDelayOverride && adb shell setprop debug.oculus.refreshRate 45
